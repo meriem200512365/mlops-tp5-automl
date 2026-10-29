@@ -1,6 +1,6 @@
 # Modèle manuel ou modèle AutoML ? (TP05)
 
-Les valeurs ci-dessous doivent être complétées avec les mesures de cette exécution. Le jeu de test commun utilise `test_size=0.25` et `random_state=42`.
+Résultats de l’exécution locale du 29 octobre 2026. Le jeu de test commun utilise `test_size=0.25` et `random_state=42`.
 
 | Critère | Manuel (RF 500/16) | AutoML (FLAML 90 s) |
 |---|---:|---:|
@@ -11,7 +11,7 @@ Les valeurs ci-dessous doivent être complétées avec les mesures de cette exé
 | Latence médiane (ms) | 32,6 (deux mesures : 32,2 et 32,9) | 30,8 (deux mesures : 30,9 et 30,7) |
 | Latence p95 (ms) | 48,5 (deux mesures : 47,8 et 49,2) | 31,8 (deux mesures : 31,8 et 31,7) |
 | Taille du fichier (Mo) | 13,37 | 0,28 |
-| Explicabilité | Importance des variables, 500 arbres, profondeur maximale 16 | Importance des variables XGBoost et configuration retenue visible dans le run MLflow |
+| Explicabilité | Importances : montant 47,9 %, ancienneté 23,7 %, fréquence 19,1 %, nuit 9,3 % ; 500 arbres, profondeur maximale 16 | Importances : nuit 31,3 %, montant 29,2 %, fréquence 23,3 %, ancienneté 16,2 % ; paramètres gagnants visibles dans le run MLflow |
 
 ## Décision (5 lignes)
 
