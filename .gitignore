@@ -5,3 +5,8 @@ data/
 models/
 mlflow.db
 mlartifacts/
+
+# Artefacts de travail, remis séparément du dépôt
+reports/*.log
+reports/*.docx
+reports/rendered/
